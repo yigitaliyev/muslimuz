@@ -13,7 +13,6 @@ export const Wrapper = styled.div`
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       width: 50%;
       background-color: white;
-      /* margin-top: 20px; */
       .container{
          padding: 8px 16px;
          border: 2px solid red;
@@ -28,12 +27,10 @@ export const Wrapper = styled.div`
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       width: 25%;
       background-color: white;
-      /* margin-top: 20px; */
    }
    .xadislar{
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       width: 25%;
       background-color: white;
-      /* margin-top: 20px; */
    }
 `;

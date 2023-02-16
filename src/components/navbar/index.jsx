@@ -12,8 +12,8 @@ function Navbar() {
                     <button>Qidirish</button>
                 </div>
                 <div className="login-container">
-                    <button>Kirish</button>
-                    <button>Ro'yxatdan o'tish</button>
+                    <Link to="/login"><button>Kirish</button></Link> 
+                    <Link to="/signup"><button>Ro'yxatdan o'tish</button></Link>  
                 </div>
             </div>
             <div className="line"></div>
