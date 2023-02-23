@@ -1,34 +1,14 @@
 import { Link } from "react-router-dom";
-import data from "./data";
+import Yangi_maqolalar from "./maqolaalr";
+import BasicTabs from "./menu";
 import { Wrapper } from "./style";
 
 
 function BoshSahifa() {
     return (
         <Wrapper>
-            <div>
-                <Link>Yangi maqololar</Link>
-                <Link>Eng ko'p ko'rilgan</Link>
-                <Link>Dolzarb maqolalar</Link>
-            </div>
-            <div>
-                
-            </div>
             <div className="maqolalar">
-                <h1>Maqolalar</h1>
-                {
-                    data.map(item => {
-                        return (
-                            <div className="container" key={item.id} >
-                                <h5>{item.name}</h5>
-                                <div className="box">
-                                    <p>{item.text}</p>
-                                    <img src={item.img} alt="" srcset="" />
-                                </div>
-                            </div>
-                        )
-                    })
-                }
+                <BasicTabs />
             </div>
             <div className="yangiliklar">
                 <h1>Yangiliklar</h1>

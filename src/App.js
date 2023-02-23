@@ -36,7 +36,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-        <Buttom />
+      <Buttom />
     </>
   );
 }

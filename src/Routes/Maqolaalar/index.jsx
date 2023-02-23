@@ -6,6 +6,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { Wrapper } from './style';
 import data from '../BoshSahifa/data';
+import Yangi_maqolalar from '../BoshSahifa/maqolaalr';
+import Buttom from '../../components/buttom';
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -49,7 +51,7 @@ export default function VerticalTabs() {
   return (
     <Wrapper>
     <Box
-      sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 500 }}
+      sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 2200 }}
     >
       <Tabs
         orientation="vertical"
@@ -69,19 +71,7 @@ export default function VerticalTabs() {
              <p>Bosh saxifa  /  Maqolalar</p>
          <div>
              <div className='maqolalar'>
-             {
-                    data.map(item => {
-                        return (
-                            <div className="container" key={item.id} >
-                                <h5>{item.name}</h5>
-                                <div className="box">
-                                    <p>{item.text}</p>
-                                    <img src={item.img} alt="" srcset="" />
-                                </div>
-                            </div>
-                        )
-                    })
-                }     
+               <Yangi_maqolalar />
              </div>
          </div>
       </TabPanel>
