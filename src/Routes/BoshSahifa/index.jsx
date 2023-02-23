@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import data from "./data";
 import { Wrapper } from "./style";
 
@@ -5,6 +6,14 @@ import { Wrapper } from "./style";
 function BoshSahifa() {
     return (
         <Wrapper>
+            <div>
+                <Link>Yangi maqololar</Link>
+                <Link>Eng ko'p ko'rilgan</Link>
+                <Link>Dolzarb maqolalar</Link>
+            </div>
+            <div>
+                
+            </div>
             <div className="maqolalar">
                 <h1>Maqolalar</h1>
                 {

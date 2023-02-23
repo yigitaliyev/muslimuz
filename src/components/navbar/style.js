@@ -71,6 +71,11 @@ export const Wrapper = styled.div`
           text-decoration: none;
           margin: 0 20px;
           color: black;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        ul li a:hover{
+          color: red;
         }
         button{
           color: #fff;

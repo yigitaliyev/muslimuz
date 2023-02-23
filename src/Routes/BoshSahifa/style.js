@@ -10,12 +10,10 @@ export const Wrapper = styled.div`
          text-align: center;
       }
    .maqolalar{
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       width: 50%;
-      background-color: white;
       .container{
          padding: 8px 16px;
-         border: 2px solid red;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
          margin: 10px;
          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
