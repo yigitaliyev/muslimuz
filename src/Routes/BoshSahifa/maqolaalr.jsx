@@ -10,7 +10,7 @@ function Yangi_maqolalar(){
                             <div className="container" key={item.id} >
                                 <h5>{item.name}</h5>
                                 <div className="box">
-                                    <p>{item.text} <a href="#">davomi</a></p>
+                                    <p>{item.text} </p>
                                     <img src={item.img} alt="" srcset="" />
                                 </div>
                             </div>
